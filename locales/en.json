@@ -1,0 +1,65 @@
+{
+	"Hero": {
+		"h1": "Innovative Solutions for Modern Businesses",
+		"h2": "From concept to deployment, we build powerful software that transforms ideas into reality and drives measurable results."
+	},
+	"OurServices": {
+		"h2": "Our Feature",
+		"h3": "Features of inWind Landing Page Template",
+		"description1": "Awesome landing page template.",
+		"description2": "Based on Next.JS, DaisyUI, TailwinCSS and other powerful libary.",
+		"description3": "Completely open source and completely free."
+	},
+	
+
+
+	"Projects": {
+		"h2": "Our Work",
+		"h3": "Featured Projects",
+		"description": "Explore some of our recent work and see how we transform ideas into powerful digital solutions."
+	},
+
+	"Testimonial": {
+		"h2": "Testimonials",
+		"h3": "Wall of Love",
+		"description1": "If you use this landing page template and recommend it on your Twitter,",
+		"description2": "please let me know",
+		"description3": ",I will display your tweet and recommendation here."
+	},
+	"Brands": {
+		"h2": "Brands",
+		"h3": "Our Partners",
+		"description1": "We are proud to work with these amazing brands.",
+		"description2": "If you want to join them,",
+		"description3": "please get in touch!"
+	
+	},
+	"Faq": {
+		"h2": "FAQ",
+		"h3": "Frequently Asked Questions",
+		"description": "Here are some of the most frequently asked questions."
+	},
+	"CTA": {
+		"h2": "Build Your Landing Page Now",
+		"h3": "Build your landing page, show your product, and start earning!"
+	},
+	"CTAButton": {
+		"btn1": "Get Source Code",
+		"btn2": "View Docs"
+	},
+	"About": {
+		"h1": "About Us",
+		"h2": "We are a professional team dedicated to front-end design and development, committed to providing innovative and efficient solutions for our clients.",
+		"why": "Why Choose Us",
+		"why_content": "With years of industry experience and expertise, we can deeply understand our clients' needs and provide customized solutions. We focus on innovation and user experience, ensuring that every project exceeds our clients' expectations.",
+		"team": "Team Introduction",
+		"team_content": "Our team is composed of passionate and creative designers, developers, and project managers. We believe that only through close teamwork and continuous learning can we provide the highest quality service and products for our clients."
+	},
+	"Blog": {
+		"title": "Blog",
+		"description": "This is a separate blog listing page description",
+		"side1": "Description",
+		"side2": "Popular Blogs",
+		"side3": "Recently updated"
+	}
+}

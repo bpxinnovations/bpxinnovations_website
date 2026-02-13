@@ -1,0 +1,360 @@
+{
+  "en": [
+    {
+      "id": 1,
+      "name": "E-Commerce Platform",
+      "url_name": "ecommerce-platform",
+      "description": "A modern, scalable e-commerce solution built with Next.js and Stripe integration, designed to handle high traffic while delivering a seamless shopping experience.",
+      "overview": "We partnered with RetailCo to rethink their entire digital sales channel. Starting from user research and competitive analysis, we designed and built a platform from the ground up — prioritising performance, SEO, and conversion at every decision point.",
+      "result": "The platform launched to immediate success. Conversion rates climbed 50% within the first quarter. Page load times dropped from 4s to under 0.8s. Mobile revenue increased by 75%. The client reported it as the highest-impact technology investment they had made in a decade.",
+      "image": "/AdobeStock_508936825_resized-1080x675.jpg",
+      "category": "Web Development",
+      "technologies": ["Next.js", "React", "Stripe", "TailwindCSS", "PostgreSQL", "Redis"],
+      "client": "John Retailer",
+      "company": "RetailCo",
+      "location": "12 Oxford Street, London",
+      "duration": "4 Months",
+      "completion_date": "2024-01-15",
+      "featured": true,
+      "status": "Completed",
+      "github": "https://github.com/bpx/ecommerce",
+      "live_url": "https://example-ecommerce.com",
+      "challenge": "We start with deep discovery — understanding the business goals, user needs, technical constraints, and existing pain points before writing a single line of code.",
+      "solution": "Iterative, test-driven development using modern technologies. We build in sprints with continuous client feedback loops to ensure quality and alignment at every stage.",
+      "process": [
+        {
+          "step": "Step 01",
+          "title": "Research",
+          "icon": "search",
+          "description": "Deep discovery phase covering business goals, user needs, and technical constraints before writing a single line of code."
+        },
+        {
+          "step": "Step 02",
+          "title": "Development",
+          "icon": "cog",
+          "description": "Iterative, test-driven development in sprints with continuous client feedback loops to ensure quality at every stage."
+        },
+        {
+          "step": "Step 03",
+          "title": "Deploy",
+          "icon": "rocket",
+          "description": "Rigorous QA, performance optimisation, and staged rollout with close post-launch monitoring for a stable production environment."
+        }
+      ],
+      "gallery": [
+        "/projects/ecommerce-1.jpg",
+        "/projects/ecommerce-2.jpg",
+        "/projects/ecommerce-3.jpg",
+        "/projects/ecommerce-4.jpg"
+      ],
+      "testimonial": {
+        "quote": "BPX Innovations transformed our online presence. The platform is lightning fast and our sales have skyrocketed.",
+        "name": "Sarah Johnson",
+        "role": "CEO",
+        "company": "RetailCo",
+        "image": "/testimonials/sarah.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Healthcare Management System",
+      "url_name": "healthcare-management",
+      "description": "Comprehensive patient management system with appointment scheduling, telemedicine, and medical records — fully HIPAA compliant.",
+      "overview": "MediCare Plus needed to modernise an outdated paper-based process while meeting strict regulatory requirements. We delivered a secure, intuitive platform that both clinicians and patients love.",
+      "result": "Appointment no-shows dropped 60%. Patient check-in time reduced by 80%. The system achieved full HIPAA compliance and patient satisfaction scores improved by 45% in the first six months.",
+      "image": "/AdobeStock_508936825_resized-1080x675.jpg",
+      "category": "Healthcare",
+      "technologies": ["React", "Node.js", "MongoDB", "Express", "Socket.io", "AWS"],
+      "client": "Dr. Michael Chen",
+      "company": "MediCare Plus",
+      "location": "45 Harley Street, London",
+      "duration": "6 Months",
+      "completion_date": "2023-12-20",
+      "featured": false,
+      "status": "Completed",
+      "live_url": "https://example-healthcare.com",
+      "process": [
+        {
+          "step": "Step 01",
+          "title": "Research",
+          "icon": "search",
+          "description": "Stakeholder interviews with clinicians, admin staff, and patients to map the full workflow and compliance requirements."
+        },
+        {
+          "step": "Step 02",
+          "title": "Development",
+          "icon": "cog",
+          "description": "HIPAA-compliant architecture built with end-to-end encryption, role-based access, and real-time telemedicine capabilities."
+        },
+        {
+          "step": "Step 03",
+          "title": "Deploy",
+          "icon": "rocket",
+          "description": "Phased rollout across departments with staff training, data migration, and 24/7 monitoring during the transition period."
+        }
+      ],
+      "gallery": [
+        "/AdobeStock_508936825_resized-1080x675.jpg",
+        "/AdobeStock_508936825_resized-1080x675.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "AI Analytics Dashboard",
+      "url_name": "ai-analytics-dashboard",
+      "description": "Real-time analytics dashboard with AI-driven insights, predictive modelling, and automated reporting for enterprise data teams.",
+      "overview": "DataCorp processes millions of events daily but lacked a unified view of their data. We built an intelligent analytics platform that surfaces actionable insights automatically, reducing the time analysts spend on manual reporting.",
+      "result": "The platform now processes over 10 million data points per hour with 94% prediction accuracy. Report generation that previously took hours now completes in minutes. Decision-making speed improved by 30% company-wide.",
+      "image": "/projects/analytics.jpg",
+      "category": "Data Analytics",
+      "technologies": ["Python", "TensorFlow", "React", "D3.js", "FastAPI", "Docker"],
+      "client": "Emma Davis",
+      "company": "DataCorp",
+      "location": "Silicon Roundabout, London",
+      "duration": "5 Months",
+      "completion_date": "2024-02-01",
+      "featured": true,
+      "status": "Completed",
+      "github": "https://github.com/bpx/analytics",
+      "process": [
+        {
+          "step": "Step 01",
+          "title": "Research",
+          "icon": "search",
+          "description": "Audit of existing data pipelines, analyst workflows, and KPI frameworks to understand what insights matter most."
+        },
+        {
+          "step": "Step 02",
+          "title": "Development",
+          "icon": "cog",
+          "description": "ML model training, real-time pipeline architecture, and custom D3.js visualisations built iteratively with analyst feedback."
+        },
+        {
+          "step": "Step 03",
+          "title": "Deploy",
+          "icon": "rocket",
+          "description": "Containerised deployment on AWS with auto-scaling, model versioning, and real-time alerting for anomaly detection."
+        }
+      ],
+      "gallery": [
+        "/projects/analytics-1.jpg",
+        "/projects/analytics-2.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Mobile Banking App",
+      "url_name": "mobile-banking-app",
+      "description": "Secure mobile banking application with biometric authentication, instant transfers, and real-time transaction notifications.",
+      "overview": "FinBank needed a mobile-first banking experience that could compete with neo-banks while meeting the strict security and compliance standards of a traditional financial institution.",
+      "result": "The app launched with a 4.8-star rating on both app stores. Biometric adoption reached 92% within the first month. Customer support tickets related to account access dropped by 65%.",
+      "image": "/projects/banking.jpg",
+      "category": "FinTech",
+      "technologies": ["React Native", "Firebase", "Node.js", "PostgreSQL", "Plaid API"],
+      "client": "James Wilson",
+      "company": "FinBank",
+      "location": "Canary Wharf, London",
+      "duration": "8 Months",
+      "completion_date": "2023-11-30",
+      "featured": false,
+      "status": "Completed",
+      "live_url": "https://example-banking.com",
+      "process": [
+        {
+          "step": "Step 01",
+          "title": "Research",
+          "icon": "search",
+          "description": "Security threat modelling, regulatory review, and UX research with existing customers to map friction points."
+        },
+        {
+          "step": "Step 02",
+          "title": "Development",
+          "icon": "cog",
+          "description": "Native biometric integration, encrypted data storage, and PCI-DSS compliant payment processing built in React Native."
+        },
+        {
+          "step": "Step 03",
+          "title": "Deploy",
+          "icon": "rocket",
+          "description": "Staged rollout to beta users, penetration testing, and coordinated App Store / Play Store submission with compliance sign-off."
+        }
+      ],
+      "gallery": [
+        "/projects/banking-1.jpg",
+        "/projects/banking-2.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Social Media Platform",
+      "url_name": "social-media-platform",
+      "description": "Feature-rich social networking platform with real-time messaging, stories, live streaming, and AI-powered content moderation.",
+      "overview": "SocialConnect had a vision for a community-first social platform that prioritised authentic connections over algorithm-driven engagement. We built the infrastructure to support millions of concurrent users while keeping the experience fast and personal.",
+      "result": "The platform scaled to 500K users in the first three months. Real-time messaging latency is under 50ms globally. Content moderation AI reduced harmful content reports by 78%.",
+      "image": "/projects/social.jpg",
+      "category": "Social Network",
+      "technologies": ["Next.js", "Socket.io", "Redis", "AWS", "GraphQL", "PostgreSQL"],
+      "client": "Alex Turner",
+      "company": "SocialConnect",
+      "location": "Shoreditch, London",
+      "duration": "10 Months",
+      "completion_date": "2024-01-10",
+      "featured": true,
+      "status": "Completed",
+      "github": "https://github.com/bpx/social-platform",
+      "live_url": "https://example-social.com",
+      "process": [
+        {
+          "step": "Step 01",
+          "title": "Research",
+          "icon": "search",
+          "description": "Community mapping, competitive analysis, and capacity planning to design an architecture that scales gracefully."
+        },
+        {
+          "step": "Step 02",
+          "title": "Development",
+          "icon": "cog",
+          "description": "WebSocket infrastructure, CDN-optimised media pipeline, and GraphQL API built with horizontal scalability in mind."
+        },
+        {
+          "step": "Step 03",
+          "title": "Deploy",
+          "icon": "rocket",
+          "description": "Load-tested infrastructure deployment across multiple AWS regions with automated failover and real-time monitoring."
+        }
+      ],
+      "gallery": [
+        "/projects/social-1.jpg",
+        "/projects/social-2.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Restaurant Management System",
+      "url_name": "restaurant-management",
+      "description": "All-in-one restaurant POS with inventory management, online ordering, table reservations, and kitchen display system.",
+      "overview": "FoodHub operated six locations with disconnected legacy systems causing inventory errors and delayed orders. We unified their operations into a single, real-time platform.",
+      "result": "Order errors dropped by 90%. Inventory waste reduced by 35%. Online orders now account for 40% of total revenue, up from 12% before the platform launched.",
+      "image": "/projects/restaurant.jpg",
+      "category": "Hospitality",
+      "technologies": ["Vue.js", "Laravel", "MySQL", "Stripe", "Firebase"],
+      "client": "Maria Santos",
+      "company": "FoodHub",
+      "location": "Soho, London",
+      "duration": "4 Months",
+      "completion_date": "2023-10-15",
+      "featured": false,
+      "status": "Completed",
+      "process": [
+        {
+          "step": "Step 01",
+          "title": "Research",
+          "icon": "search",
+          "description": "On-site observation across all six locations to document workflows, bottlenecks, and staff pain points."
+        },
+        {
+          "step": "Step 02",
+          "title": "Development",
+          "icon": "cog",
+          "description": "Real-time inventory sync, kitchen display integration, and unified POS built with offline-first architecture."
+        },
+        {
+          "step": "Step 03",
+          "title": "Deploy",
+          "icon": "rocket",
+          "description": "Hardware installation, staff training across all locations, and a parallel-run period to ensure zero disruption to service."
+        }
+      ],
+      "gallery": [
+        "/projects/restaurant-1.jpg",
+        "/projects/restaurant-2.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Learning Management System",
+      "url_name": "learning-management-system",
+      "description": "Interactive online learning platform with adaptive video streaming, AI-powered assessments, and gamified progress tracking.",
+      "overview": "EduTech needed to migrate 50,000 learners from a legacy LMS to a modern, engaging platform — without disrupting active courses or losing historical progress data.",
+      "result": "Course completion rates increased by 42%. Learner satisfaction scores rose from 3.2 to 4.7 out of 5. The platform handled the full migration with zero data loss and less than 2 hours of planned downtime.",
+      "image": "/projects/lms.jpg",
+      "category": "Education",
+      "technologies": ["React", "Django", "PostgreSQL", "AWS S3", "FFmpeg", "Stripe"],
+      "client": "Prof. Linda Osei",
+      "company": "EduTech",
+      "location": "7 Learning Lane, Accra",
+      "duration": "7 Months",
+      "completion_date": "2024-02-05",
+      "featured": true,
+      "status": "Completed",
+      "live_url": "https://example-lms.com",
+      "process": [
+        {
+          "step": "Step 01",
+          "title": "Research",
+          "icon": "search",
+          "description": "Learning outcome analysis, instructor interviews, and audit of existing course content to plan a smooth migration strategy."
+        },
+        {
+          "step": "Step 02",
+          "title": "Development",
+          "icon": "cog",
+          "description": "Adaptive video player, AI quiz generation, gamification engine, and full data migration pipeline built in parallel."
+        },
+        {
+          "step": "Step 03",
+          "title": "Deploy",
+          "icon": "rocket",
+          "description": "Phased migration with cohort-by-cohort rollout, real-time monitoring, and immediate rollback capability throughout."
+        }
+      ],
+      "gallery": [
+        "/projects/lms-1.jpg",
+        "/projects/lms-2.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "IoT Smart Home System",
+      "url_name": "iot-smart-home",
+      "description": "Unified smart home control platform supporting 50+ device types with voice control, automation rules, and energy monitoring.",
+      "overview": "SmartHome Inc needed a single app to replace the five separate apps their customers were using to control different devices. We designed a unified platform that feels as intuitive as it is powerful.",
+      "result": "Customer app ratings improved from 2.9 to 4.6 stars. Support calls dropped by 55%. Energy monitoring features helped users reduce consumption by an average of 22%.",
+      "image": "/projects/iot.jpg",
+      "category": "IoT",
+      "technologies": ["React Native", "MQTT", "Arduino", "Node.js", "MongoDB", "AWS IoT"],
+      "client": "Chris Boateng",
+      "company": "SmartHome Inc",
+      "location": "Innovation Hub, Kumasi",
+      "duration": "6 Months",
+      "completion_date": "2023-09-20",
+      "featured": false,
+      "status": "Completed",
+      "github": "https://github.com/bpx/smart-home",
+      "process": [
+        {
+          "step": "Step 01",
+          "title": "Research",
+          "icon": "search",
+          "description": "Device protocol analysis, customer journey mapping, and home visit observations to understand real-world usage patterns."
+        },
+        {
+          "step": "Step 02",
+          "title": "Development",
+          "icon": "cog",
+          "description": "MQTT broker architecture, device abstraction layer, and React Native app with offline-first capability and local processing."
+        },
+        {
+          "step": "Step 03",
+          "title": "Deploy",
+          "icon": "rocket",
+          "description": "OTA firmware update system, beta programme with 200 homes, and App Store launch with phased regional rollout."
+        }
+      ],
+      "gallery": [
+        "/projects/iot-1.jpg",
+        "/projects/iot-2.jpg"
+      ]
+    }
+  ]
+}
