@@ -2,6 +2,7 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { FaArrowRight } from 'react-icons/fa';
+import AIBackground from './aiBackground';
 
 export default function Cta({ locale }) {
   // Repeating text for carousel effect - more repetitions for seamless loop
@@ -10,6 +11,7 @@ export default function Cta({ locale }) {
 
   return (
     <section className="relative w-screen h-screen min-h-[600px] flex items-center justify-center overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-black -mx-4 sm:-mx-6">
+    
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <div 

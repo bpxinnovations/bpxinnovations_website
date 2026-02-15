@@ -1,5 +1,6 @@
 import { LuCog, LuShieldAlert,  } from "react-icons/lu";
 import { GiBinoculars } from "react-icons/gi";
+import AIBackground from "./aiBackground";
 
 const plusPoints = [
   {
@@ -35,6 +36,8 @@ export default function WhyChooseUs() {
       <p className="mt-5 text-lg font-bricolage text-muted-foreground">
         We are constantly always keep pace with the time.
       </p>
+
+    
 
       <div className="mt-12 flex flex-wrap gap-4 justify-center">
         {plusPoints.map((plusPoint) => (

@@ -9,9 +9,12 @@ import Brands from "@/components/home/brands";
 import BusinessCategories from "@/components/home/businessCategories";
 import FeaturedProjects from "@/components/home/featuredProjects";
 import OurServices from "@/components/home/feature";
+import AIBackground from "@/components/home/aiBackground";
+import AISection from "@/components/home/aisection";
 
 
 export default async function Home({ params }) {
+  
   const langName = params.lang || defaultLocale;
   const dict = await getDictionary(langName); // 获取内容
 
@@ -24,12 +27,17 @@ export default async function Home({ params }) {
 
         <OurServices locale={dict.OurServices} langName={langName} />
         <FeaturedProjects locale={dict.Projects} langName={langName} />
+        <AISection/>
+      
 
         {/* <Testimonial locale={dict.Testimonial} langName={langName} /> */}
 
         <Faq locale={dict.Faq} langName={langName} />
       </div>
       <Cta />
+
+      
+      
       <Testimonials />
     </>
   );

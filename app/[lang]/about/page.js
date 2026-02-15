@@ -18,6 +18,7 @@ import WhyChooseUs from "@/components/home/whyChooseUs";
 import OurTeam from "@/components/home/ourTeam";
 
 export default function Page({ params }) {
+  
   const [dict, setDict] = useState({
     About: {},
     Testimonial: {},

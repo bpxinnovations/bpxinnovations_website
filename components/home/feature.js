@@ -3,12 +3,14 @@ import { motion } from "framer-motion";
 import FeatureCard from "./feature/card";
 import { ServicesList } from "@/lib/featuresList";
 import { MdOutlineFeaturedPlayList } from "react-icons/md";
+import AIBackground from "./aiBackground";
 
 export default function OurServices({ locale, langName = "en" }) {
   let list = ServicesList[`OURSERVICES_${langName.toUpperCase()}`] || [];
 
   return (
     <section id="our-services" className="relative py-10 md:py-20">
+    {/* <AIBackground/> */}
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
