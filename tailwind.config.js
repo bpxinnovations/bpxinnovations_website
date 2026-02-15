@@ -21,6 +21,7 @@ module.exports = {
 				'spin-slow':       'spin 20s linear infinite',
 				'marquee':         'marquee 40s linear infinite',
 				'marquee-fast':    'marquee 25s linear infinite',
+				'letter-drop':     'letter-drop 2.8s ease-in-out forwards',
 			},
 			keyframes: {
 				'infinite-scroll': {
@@ -32,19 +33,24 @@ module.exports = {
 					'50%':      { transform: 'scale(1.1)' },
 				},
 				'line': {
-					'0%, 100%':        { left: '0', opacity: '0' },
-					'50%':             { left: '100%', transform: 'translateX(-100%)' },
+					'0%, 100%':           { left: '0', opacity: '0' },
+					'50%':                { left: '100%', transform: 'translateX(-100%)' },
 					'10%, 40%, 60%, 90%': { opacity: '0' },
-					'25%, 75%':        { opacity: '1' },
+					'25%, 75%':           { opacity: '1' },
 				},
 				'spin': {
 					'0%':   { transform: 'rotate(0deg)' },
 					'100%': { transform: 'rotate(360deg)' },
 				},
-
 				'marquee': {
 					'0%':   { transform: 'translateX(0)' },
 					'100%': { transform: 'translateX(-50%)' },
+				},
+				'letter-drop': {
+					'0%':   { opacity: '0', transform: 'translateY(-16px)' },
+					'25%':  { opacity: '1', transform: 'translateY(0)' },
+					'65%':  { opacity: '1', transform: 'translateY(0)' },
+					'100%': { opacity: '0', transform: 'translateY(-12px)' },
 				},
 			},
 		},

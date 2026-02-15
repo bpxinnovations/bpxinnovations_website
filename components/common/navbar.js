@@ -1,19 +1,30 @@
 'use client';
 import Image from 'next/image';
 import { MdMenu } from 'react-icons/md';
-import { SiGithub } from 'react-icons/si';
 import { useEffect, useState } from 'react';
 import ThemeToggle from './themeToggle';
-import LangSwitch from './langSwitch';
 
 import { usePathname } from 'next/navigation';
 import { defaultLocale } from '@/lib/i18n';
 import { NavLinksList } from '@/lib/navLinksList';
 
+const text = 'BPX Innovations';
+
+
 export default function Navbar() {
 	const pathname = usePathname();
 	const [langName, setLangName] = useState(defaultLocale);
 	const [linkList, setLinkList] = useState([]);
+	 const [key, setKey] = useState(0);
+
+  // Restart animation every 4 seconds
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setKey(k => k + 1);
+    }, 4000);
+    return () => clearInterval(interval);
+  }, []);
+
 
 	useEffect(() => {
 		const fetchLinksList = async () => {
@@ -42,7 +53,22 @@ export default function Navbar() {
 					className='transition-all hover:scale-110 w-6 md:w-10 h-6 md:h-10'
 					alt='logo'
 				></Image>
-				<h2 className='ml-3 font-bold leading-5'>BPX Innovations</h2>
+				  <h2 className="ml-3 font-bold leading-5 font-bricolage flex overflow-hidden">
+      {text.split('').map((char, i) => (
+        <span
+          key={`${key}-${i}`}
+          className="inline-block animate-letter-drop"
+          style={{
+            animationDelay: `${i * 40}ms`,
+            // vanish delay = drop-in duration + hold time
+            animationDuration: '2.8s',
+            whiteSpace: char === ' ' ? 'pre' : 'normal',
+          }}
+        >
+          {char}
+        </span>
+      ))}
+    </h2>
 			</a>
 
 			<ul className='w-3/5 px-5 font-medium hidden md:flex flex-nowrap items-center justify-around'>
